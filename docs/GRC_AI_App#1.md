@@ -1,11 +1,14 @@
-# GRC AI DevBoard + Apps#1 
+# GRC AI DevBoard + Robot Control App + Apps#1 
 
 
 <img src="https://github.com/user-attachments/assets/e3e6825e-b6aa-4fa9-a20d-46c42cd3a039" width=40% align="left"> GRC Development Board and ready-to-use software applications to help you quickly make AI-based solutions.
 
-This kit includes preinstalled apps that can be used for scenarios:
-- Voice and tilt Robot Control
+This kit includes a preinstalled app:
+- **Voice and tilt Robot Control**
   Ready to use with [CrowBot](https://www.elecrow.com/crowbot-bolt-programmable-smart-robot-car-steam-robot-kit.html)!
+
+
+Additional Apps:
 - Voice PIN
   We recommend using it with: [Crowtail Relay](https://www.elecrow.com/crowtail-relay-p-1232.html) + [Electromagnetic Lock](https://www.elecrow.com/electromagnetic-lock-p-1609.html)
 - Teacher 3+
@@ -33,7 +36,7 @@ Three pre-installed proprietary applications come with the development board, of
 
 **You can utilize these pre-installed applications alongside an open-source component running on the ESP32-C3.**
 
-While the applications are not open-source, this component provides access to their output data. It enables you to control and manage them, send commands, and supply data for processing, allowing integration and customization for your specific tasks, equipment, and scenarios. 
+While the applications are not open-source, this component provides access to their output data. It lets you control and manage them, send commands, and supply data for processing, allowing integration and customization for your specific tasks, equipment, and scenarios. 
 
 **[Open-source software component on GitHub](https://github.com/Grovety/GRC-AI-apps/tree/main)**
 
@@ -46,17 +49,17 @@ While the applications are not open-source, this component provides access to th
 An app for controlling devices, such as robots, using voice commands and gestures like tilting a board in different directions. Both modes can be used simultaneously or separately.
 
 > Check out our [Arduino open-source program](https://github.com/Grovety/CrowBot_GRC_program) for the [CrowBot-BOLT robot](https://www.elecrow.com/crowbot-bolt-programmable-smart-robot-car-steam-robot-kit.html), which is ready to use right out of the box!  
-We designed it to showcase voice control and tilt-based movement. You can also use it as a reference for your projects, adapt it for other robots and devices, or explore new possibilities with the CrowBot. 
+We designed it to showcase voice control and tilt-based movement. You can also use it as a project reference, adapt it for other robots and devices, or explore new possibilities with the CrowBot. 
 
 
 **Voice Control**
 
-The application operates in constant mode, listening for user commands through the built-in microphones. When it detects a command from its predefined list, the application recognizes it, announces it through the speaker on the development board, and transmits it via BLE and wired connections.
+The application operates in constant mode listening for user commands through the built-in microphones. When it detects a command from its predefined list, the application recognizes it, announces it through the speaker on the development board, and transmits it via BLE and wired connections.
 The command that is sent can be transformed into movement commands by the robot or other devices. Additionally, you can process the command using the onboard ESP32-C3 microcontroller, allowing you to convert it directly into commands for controlling the motors without the need for extra computing boards.
 
 **Tilt Control**
 
-The app detects the tilt of a board and translates it into commands to control a robot. Tilting forward makes the robot accelerate, while tilting backward slows it down or moves it in reverse. Tilting to the sides makes it turn. The controls are intuitive and engaging, offering a fun user experience. This system can be adapted to control different types of machines. 
+The app detects the tilt of a board and translates it into commands to control a robot. Tilting forward makes the robot speed up while tilting backward slows it down, or moves it in reverse. Tilting to the sides makes it turn. The controls are intuitive and engaging, offering a fun user experience. This system can be adapted to control different types of machines. 
 
 **For the complete description and documentation, visit: https://github.com/Grovety/GRC-AI-apps/blob/main/docs/Robot_Control_Description.md**
 
