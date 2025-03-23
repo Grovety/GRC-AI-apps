@@ -1,4 +1,4 @@
-# GRC-AI-apps
+# GRC-AI-apps - Robot Control
 
 [Description of GRC_AI App#1](https://github.com/Grovety/GRC-AI-apps/blob/main/docs/GRC_AI_App%231.md)
 
