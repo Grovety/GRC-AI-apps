@@ -12,7 +12,7 @@
 
 1. This example shows how to set up a console application on the ESP32C3 to control the ESP32S3 using the UART interface.
     - Type `help` to display the supported commands.
-    - By default, all messages received from the ESP32S3 are sent using the [BLE](https://github.com/Grovety/GRC-AI-apps/blob/main/BLE.md). All possible messages are described in [GRC_AI_apps_kit#1.md](https://github.com/Grovety/GRC-AI-apps/blob/main/GRC_AI_apps_kit%231.md) and [GRC_AI_apps_kit#2.md](https://github.com/Grovety/GRC-AI-apps/blob/main/GRC_AI_apps_kit%232.md).
+    - By default, all messages received from the ESP32S3 are sent using the [BLE](https://github.com/Grovety/GRC-AI-apps/blob/main/BLE.md). All possible messages are described in [GRC_AI_apps_kit#1.md (Robot control +2 additional apps)](https://github.com/Grovety/GRC-AI-apps/blob/main/GRC_AI_apps_kit%231.md).
 
 2. The UART communication protocol described [here](https://github.com/Grovety/GRC-AI-apps/blob/main/GRC_protocol.md).
 
