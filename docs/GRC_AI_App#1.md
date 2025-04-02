@@ -54,10 +54,14 @@ We designed it to showcase voice control and tilt-based movement. You can also u
 
 **Voice Control**
 
+Demo: https://youtu.be/RoclNdVzP7A
+
 The application operates in constant mode listening for user commands through the built-in microphones. When it detects a command from its predefined list, the application recognizes it, announces it through the speaker on the development board, and transmits it via BLE and wired connections.
 The command that is sent can be transformed into movement commands by the robot or other devices. Additionally, you can process the command using the onboard ESP32-C3 microcontroller, allowing you to convert it directly into commands for controlling the motors without the need for extra computing boards.
 
 **Tilt Control**
+
+Demo: https://youtu.be/FIsmTgkFIoI
 
 The app detects the tilt of a board and translates it into commands to control a robot. Tilting forward makes the robot speed up while tilting backward slows it down, or moves it in reverse. Tilting to the sides makes it turn. The controls are intuitive and engaging, offering a fun user experience. This system can be adapted to control different types of machines. 
 
