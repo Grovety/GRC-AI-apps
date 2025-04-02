@@ -21,6 +21,9 @@ The second part is an API that provides access to recognized commands (text stri
 - Open source example of software for working with API
 
 ## Voice Control
+
+Demo: https://youtu.be/RoclNdVzP7A 
+
 The board "listens" to user commands through its built-in microphones and recognizes them using a neural network running on the S3.
 
 The recognized command is transmitted as a text string for further use by the user application, which runs on the C3 (use the reference<link>).
@@ -50,6 +53,9 @@ Additionally, the board provides visual and audio feedback for recognized comman
 - PLAY MUSIC
 
 ## Tilt Control
+
+Demo: https://youtu.be/FIsmTgkFIoI
+
 ### Entering the Mode
 
 To switch to tilt control mode:
